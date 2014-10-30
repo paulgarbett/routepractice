@@ -1,0 +1,17 @@
+<h1>I am index.html.erb</h1>
+
+
+<% @events.each do |e| %>
+<h2>
+	<%= e.title %>
+</h2>
+
+<h2>
+	<%= e.date %>
+</h2>
+
+<h2>
+	<%= e.description %>
+</h2>
+
+<%end%>
